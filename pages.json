@@ -5,7 +5,9 @@
 			"style": {
 				// #ifdef MP 
 				"navigationBarTitleText": "喵优券",
+				//"navigationStyle": "custom",
 				// #endif 
+				
 				"app-plus": {
 					"titleNView": {
 						"type": "transparent",
@@ -23,18 +25,15 @@
 								"text": "\ue60d",
 								"fontSize": "24",
 								"float": "left",
-								"background": "rgba(231, 231, 231,.7)",
-								"width":"auto"
-								
+								"background": "rgba(231, 231, 231,0)"
 							},
 							{
 								"color":"#007AFF",
 								"fontSrc": "/static/yticon.ttf",
 								"text": "\ue744",
 								"fontSize": "26",
-								"background": "rgba(231, 231, 231,.7)",
-								"redDot": false,
-								"width":"auto"
+								"background": "rgba(231, 231, 231,0)",
+								"redDot": false
 							}
 						]
 					}

@@ -5,9 +5,9 @@
 * 只开源客户端使用资源来自网络
 ### 应用截图
 
-<img src="./screenshot/1.png">
-<img src="./screenshot/2.png">
-<img src="./screenshot/3.png">
+<img src="./screenshot/1.jpg">
+<img src="./screenshot/2.jpg">
+<img src="./screenshot/3.jpg">
 <img src="./screenshot/4.png">
 
 <br/>

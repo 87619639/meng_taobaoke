@@ -30,6 +30,14 @@
 		align-items: center;
 		justify-content: center;
 	}
+	
+	.uni-page-head-btn i{
+		color:#fff;
+	}
+	
+	.uni-btn-icon{
+	    color:#007AFF!important
+	}
 
 	.logo {
 		height: 200rpx;

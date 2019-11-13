@@ -1,0 +1,29 @@
+{
+  "scrollIndicator": "none",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "搜索",
+  "titleNView": {
+    "titleColor": "#fff",
+    "buttons": [
+      {
+        "fontSrc": "/static/uni.ttf",
+        "text": "搜券",
+        "width": "auto",
+        "fontSize": "18px",
+        "color": "#fff"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#fff",
+      "borderRadius": "6px",
+      "placeholder": "短裤短袖女装",
+      "autoFocus": true
+    }
+  },
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-floating-button": "/components/uni-floating-button/uni-floating-button"
+  }
+}

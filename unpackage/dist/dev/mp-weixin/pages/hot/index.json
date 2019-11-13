@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "推荐",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-floating-button": "/components/uni-floating-button/uni-floating-button"
+  }
+}

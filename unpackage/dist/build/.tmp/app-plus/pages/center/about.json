@@ -1,0 +1,8 @@
+{
+  "scrollIndicator": "none",
+  "navigationBarTitleText": "关于我们",
+  "titleNView": {
+    "titleColor": "#fff"
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"center-list { background-color: #ffffff; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }\n",],undefined,{path:"./pages/center/setting.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/center/setting.wxml') } }));

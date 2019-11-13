@@ -329,7 +329,7 @@
 		content: "\e617";
 	}
 	
-	uni-page-head .uni-btn-icon {
+	.uni-page-head .uni-btn-icon {
 	    overflow: hidden;
 	    min-width: 1em;
 	    color: #000 !important;

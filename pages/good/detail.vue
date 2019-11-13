@@ -412,4 +412,11 @@ export default {
 	background: linear-gradient(to left,#FA4DBF 0,#FBAA59 100%);
 }
 
+
+	.uni-page-head .uni-page-head-btn .uni-btn-icon {
+	    overflow: hidden;
+	    min-width: 1em;
+	    color: #FFFFFF !important;
+	}
+
 </style>

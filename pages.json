@@ -203,13 +203,13 @@
 				"app-plus": {
 					"scrollIndicator":"none",
 					"titleNView": {
-						// "type": "transparent",
-						"titleColor": "#fff",
-						// "backgroundColor": "#007AFF",
+						 "type": "transparent",
+						"titleColor": "#FFFFFF",
+						 "backgroundColor": "#007AFF",
 						"buttons": [{
 							"type": "share",
 							"fontSize": "28px",
-							"color": "#fff"
+							"color": "#FFFFFF"
 						}]
 					}
 				}
@@ -288,7 +288,7 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "桔子精选",
+		"navigationBarTitleText": "喵优券",
 		"navigationBarBackgroundColor": "#007AFF",
 		"backgroundColor": "#FF0000"
 	},

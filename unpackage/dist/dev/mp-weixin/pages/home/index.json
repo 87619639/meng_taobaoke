@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "喵优券",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "uni-floating-button": "/components/uni-floating-button/uni-floating-button"
+  }
+}

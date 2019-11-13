@@ -1,0 +1,29 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "推荐",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "titleColor": "#fff",
+    "buttons": [
+      {
+        "fontSrc": "/static/iconfont.ttf",
+        "text": "",
+        "width": "40px",
+        "fontSize": "22px",
+        "color": "#fff",
+        "background": "rgba(0,0,0,0)"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#fff",
+      "borderRadius": "6px",
+      "placeholder": "短裤短袖女装",
+      "disabled": true
+    }
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-floating-button": "/components/uni-floating-button/uni-floating-button"
+  }
+}

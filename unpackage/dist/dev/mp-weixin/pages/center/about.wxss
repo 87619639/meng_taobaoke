@@ -1,0 +1,32 @@
+
+.titile {
+	color: #333333;
+	font-size: 30px;
+	text-align: center;
+}
+.content{
+	padding: 0 40rpx 0 40rpx;
+	color: #8F8F94;
+	margin-top: 40rpx;
+}
+.about {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.foot{
+	margin-top: 100rpx;
+	color: #8F8F94;
+	text-align: center;
+}
+

@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent",
+    "titleColor": "#FFFFFF",
+    "backgroundColor": "#007AFF",
+    "buttons": [
+      {
+        "type": "share",
+        "fontSize": "28px",
+        "color": "#FFFFFF"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "uni-floating-button": "/components/uni-floating-button/uni-floating-button",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

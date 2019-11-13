@@ -1,0 +1,24 @@
+{
+  "navigationBarTitleText": "分类",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "titleColor": "#fff",
+    "buttons": [
+      {
+        "fontSrc": "/static/iconfont.ttf",
+        "text": "",
+        "width": "40px",
+        "fontSize": "22px",
+        "color": "#fff",
+        "background": "rgba(0,0,0,0)"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#fff",
+      "borderRadius": "6px",
+      "placeholder": "短裤短袖女装",
+      "disabled": true
+    }
+  },
+  "usingComponents": {}
+}

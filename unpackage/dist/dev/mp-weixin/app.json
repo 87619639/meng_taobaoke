@@ -18,8 +18,8 @@
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "喵优券",
-    "navigationBarBackgroundColor": "#007AFF",
-    "backgroundColor": "#FF0000"
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
     "color": "#444444",

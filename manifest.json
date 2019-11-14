@@ -52,43 +52,43 @@
             },
             "icons" : {
                 "ios" : {
-                    "appstore" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
+                    "appstore" : "C:/Users/Administrator/Desktop/icon.png",
                     "ipad" : {
-                        "app" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "app@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "notification" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "notification@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "proapp@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "settings" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "settings@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "spotlight" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "spotlight@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png"
+                        "app" : "C:/Users/Administrator/Desktop/icon.png",
+                        "app@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "notification" : "C:/Users/Administrator/Desktop/icon.png",
+                        "notification@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "proapp@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "settings" : "C:/Users/Administrator/Desktop/icon.png",
+                        "settings@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "spotlight" : "C:/Users/Administrator/Desktop/icon.png",
+                        "spotlight@2x" : "C:/Users/Administrator/Desktop/icon.png"
                     },
                     "iphone" : {
-                        "app@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "app@3x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "notification@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "notification@3x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "settings@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "settings@3x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "spotlight@2x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                        "spotlight@3x" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png"
+                        "app@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "app@3x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "notification@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "notification@3x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "settings@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "settings@3x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "spotlight@2x" : "C:/Users/Administrator/Desktop/icon.png",
+                        "spotlight@3x" : "C:/Users/Administrator/Desktop/icon.png"
                     }
                 },
                 "android" : {
-                    "hdpi" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
+                    "hdpi" : "C:/Users/Administrator/Desktop/icon.png",
                     "ldpi" : "unpackage/res/icons/48x48.png",
                     "mdpi" : "unpackage/res/icons/48x48.png",
-                    "xhdpi" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                    "xxhdpi" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png",
-                    "xxxhdpi" : "C:/Users/87619/Desktop/O1CN011lHhCNz0omHor1K_!!573804794.png"
+                    "xhdpi" : "C:/Users/Administrator/Desktop/icon.png",
+                    "xxhdpi" : "C:/Users/Administrator/Desktop/icon.png",
+                    "xxxhdpi" : "C:/Users/Administrator/Desktop/icon.png"
                 }
             },
             "splashscreen" : {
                 "android" : {
-                    "xxhdpi" : "C:/Users/87619/Desktop/ewm.png",
-                    "xhdpi" : "C:/Users/87619/Desktop/微信图片_20191109130754.png",
-                    "hdpi" : "C:/Users/87619/Desktop/ewm.png"
+                    "xxhdpi" : "C:/Users/Administrator/Desktop/IMG_1120.png",
+                    "xhdpi" : "C:/Users/Administrator/Desktop/IMG_1120.png",
+                    "hdpi" : "C:/Users/Administrator/Desktop/IMG_1120.png"
                 }
             }
         }

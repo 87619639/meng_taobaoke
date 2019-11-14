@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "喵优券",
+  "navigationBarTextStyle": "black",
   "usingComponents": {
     "uni-grid": "/components/uni-grid/uni-grid",
     "uni-load-more": "/components/uni-load-more/uni-load-more",

@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "商品详情",
+  "navigationBarTextStyle": "black",
   "usingComponents": {
     "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
     "uni-floating-button": "/components/uni-floating-button/uni-floating-button",

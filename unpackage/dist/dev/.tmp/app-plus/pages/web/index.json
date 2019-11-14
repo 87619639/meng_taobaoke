@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "领券购买",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "titleColor": "#fff",
+    "buttons": [
+      {
+        "type": "share",
+        "fontSize": "28px",
+        "color": "#fff"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

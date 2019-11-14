@@ -21,7 +21,7 @@
 	@import './common/common.css';
 
 	page{
-		background:#E7E7E7;
+		background:#F7F7F7;
 		height: 100%;
 		font-size: 28upx;
 		line-height: 1.8;

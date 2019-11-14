@@ -1,0 +1,1 @@
+<uni-list class="center-list" vue-id="1" bind:__l="__l" vue-slots="{{['default']}}"><uni-list-item vue-id="{{('2')+','+('1')}}" show-extra-icon="{{true}}" extraIcon="{{clean}}" title="清除缓存" showArrow="true" rightNote="点击清除" data-event-opts="{{[['^click',[['click',[0]]]]]}}" bind:click="__e" bind:__l="__l"></uni-list-item></uni-list>

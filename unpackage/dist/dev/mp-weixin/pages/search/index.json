@@ -2,6 +2,7 @@
   "scrollIndicator": "none",
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "搜索",
+  "navigationBarTextStyle": "black",
   "usingComponents": {
     "uni-tag": "/components/uni-tag/uni-tag",
     "uni-load-more": "/components/uni-load-more/uni-load-more",

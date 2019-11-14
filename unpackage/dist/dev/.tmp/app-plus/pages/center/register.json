@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "注册",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "titleColor": "#fff"
+  },
+  "usingComponents": {}
+}

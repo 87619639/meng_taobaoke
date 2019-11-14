@@ -7492,9 +7492,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!**************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/pages.json ***!
-  \**************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/pages.json ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8399,20 +8399,20 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 
 /***/ }),
 /* 7 */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/pages.json?{"type":"style"} ***!
-  \*******************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/pages.json?{"type":"style"} ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/index": { "navigationBarTitleText": "喵优券" }, "pages/hot/index": { "enablePullDownRefresh": true, "navigationBarTitleText": "推荐" }, "pages/tag/index": { "navigationBarTitleText": "分类" }, "pages/activity/index": { "enablePullDownRefresh": true, "navigationBarTitleText": "" }, "pages/center/index": { "navigationBarTitleText": "我的" }, "pages/center/login": { "navigationBarTitleText": "登录" }, "pages/center/register": { "navigationBarTitleText": "注册" }, "pages/search/index": { "scrollIndicator": "none", "enablePullDownRefresh": true, "navigationBarTitleText": "搜索" }, "pages/good/detail": { "navigationBarTitleText": "商品详情" }, "pages/web/index": { "navigationBarTitleText": "领券购买" }, "pages/center/footprint": { "scrollIndicator": "none", "navigationBarTitleText": "我的足迹" }, "pages/center/setting": { "scrollIndicator": "none", "navigationBarTitleText": "设置" }, "pages/center/about": { "scrollIndicator": "none", "navigationBarTitleText": "关于我们" } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "喵优券", "navigationBarBackgroundColor": "#007AFF", "backgroundColor": "#FF0000" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/index": { "navigationBarTitleText": "喵优券", "navigationBarTextStyle": "black" }, "pages/hot/index": { "enablePullDownRefresh": true, "navigationBarTitleText": "推荐" }, "pages/tag/index": { "navigationBarTitleText": "分类" }, "pages/activity/index": { "enablePullDownRefresh": true, "navigationBarTitleText": "" }, "pages/center/index": { "navigationBarTitleText": "我的" }, "pages/center/login": { "navigationBarTitleText": "登录" }, "pages/center/register": { "navigationBarTitleText": "注册" }, "pages/search/index": { "scrollIndicator": "none", "enablePullDownRefresh": true, "navigationBarTitleText": "搜索", "navigationBarTextStyle": "black" }, "pages/good/detail": { "navigationBarTitleText": "商品详情", "navigationBarTextStyle": "black" }, "pages/web/index": { "navigationBarTitleText": "领券购买" }, "pages/center/footprint": { "scrollIndicator": "none", "navigationBarTitleText": "我的足迹" }, "pages/center/setting": { "scrollIndicator": "none", "navigationBarTitleText": "设置" }, "pages/center/about": { "scrollIndicator": "none", "navigationBarTitleText": "关于我们" } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "喵优券", "navigationBarBackgroundColor": "#000000", "backgroundColor": "#FFFFFF" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/pages.json?{"type":"stat"} ***!
-  \******************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/pages.json?{"type":"stat"} ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8532,9 +8532,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 15 */
-/*!******************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/store/index.js ***!
-  \******************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/store/index.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9513,9 +9513,9 @@ var index_esm = {
 
 /***/ }),
 /* 17 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/store/modules/category.js ***!
-  \*****************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/store/modules/category.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9593,9 +9593,9 @@ category;exports.default = _default;
 
 /***/ }),
 /* 18 */
-/*!*****************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/common/api.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/common/api.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9635,9 +9635,9 @@ function checkVersion(params) {
 
 /***/ }),
 /* 19 */
-/*!******************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/common/http.js ***!
-  \******************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/common/http.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9672,9 +9672,9 @@ http;exports.default = _default;
 
 /***/ }),
 /* 20 */
-/*!*********************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/common/request.js ***!
-  \*********************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/common/request.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9777,9 +9777,9 @@ http;exports.default = _default;
 
 /***/ }),
 /* 21 */
-/*!********************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/common/config.js ***!
-  \********************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/common/config.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9793,9 +9793,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 22 */
-/*!*************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/store/modules/good.js ***!
-  \*************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/store/modules/good.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10056,9 +10056,9 @@ good;exports.default = _default;
 
 /***/ }),
 /* 23 */
-/*!******************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/common/util.js ***!
-  \******************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/common/util.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10099,9 +10099,9 @@ function string2Date(dateString) {
 
 /***/ }),
 /* 24 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/store/modules/banner.js ***!
-  \***************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/store/modules/banner.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10177,9 +10177,9 @@ banner;exports.default = _default;
 
 /***/ }),
 /* 25 */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/store/modules/activity.js ***!
-  \*****************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/store/modules/activity.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10237,9 +10237,9 @@ activity;exports.default = _default;
 
 /***/ }),
 /* 26 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/store/modules/search.js ***!
-  \***************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/store/modules/search.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10356,9 +10356,9 @@ search;exports.default = _default;
 
 /***/ }),
 /* 27 */
-/*!******************************************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/store/modules/footprint.js ***!
-  \******************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/store/modules/footprint.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10510,9 +10510,9 @@ footprint;exports.default = _default;
 
 /***/ }),
 /* 28 */
-/*!***********************************************************************!*\
-  !*** C:/Users/87619/Documents/HBuilderProjects/meng_taobaoke/Json.js ***!
-  \***********************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/meng_taobaoke/Json.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

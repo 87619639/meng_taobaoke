@@ -1,0 +1,11 @@
+{
+  "scrollIndicator": "none",
+  "navigationBarTitleText": "设置",
+  "titleNView": {
+    "titleColor": "#fff"
+  },
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

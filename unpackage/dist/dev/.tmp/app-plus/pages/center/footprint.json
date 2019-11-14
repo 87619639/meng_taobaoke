@@ -1,0 +1,18 @@
+{
+  "scrollIndicator": "none",
+  "navigationBarTitleText": "我的足迹",
+  "titleNView": {
+    "titleColor": "#fff",
+    "buttons": [
+      {
+        "fontSrc": "/static/iconfont.ttf",
+        "text": "",
+        "width": "40px",
+        "fontSize": "22px",
+        "color": "#fff",
+        "background": "rgba(0,0,0,0)"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

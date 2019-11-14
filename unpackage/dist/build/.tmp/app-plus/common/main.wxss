@@ -83,7 +83,7 @@
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	background-color: #e7e7e7;
+	background-color: #F7F7F7;
 	height: 30px;
 	border-radius: 15px;
 	padding: 0 4%;
@@ -257,7 +257,7 @@
 }
 .uni-tab-bar .good-list {
 	width: 750rpx;
-	background: #E7E7E7;
+	background: #F7F7F7;
 	height: 100%;
 	-ms-touch-action: none;
 	    touch-action: none;
@@ -295,7 +295,7 @@
 	color: red;
 }
 page{
-	background:#E7E7E7;
+	background:#F7F7F7;
 	height: 100%;
 	font-size: 28rpx;
 	line-height: 1.8;

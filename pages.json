@@ -7,7 +7,7 @@
 				"navigationBarTitleText": "喵优券",
 				//"navigationStyle": "custom",
 				// #endif 
-				
+				"navigationBarTextStyle":"black",
 				"app-plus": {
 					"titleNView": {
 						"type": "transparent",
@@ -18,8 +18,8 @@
 							"disabled": true,
 							"placeholderColor": "#606266"
 						},
-						"titleColor":"#007AFF",
-						"buttons": [{
+						"titleColor":"#007AFF"
+/* 						"buttons": [{
 								"color":"#FF0000",
 								"fontSrc": "/static/yticon.ttf",
 								"text": "\ue60d",
@@ -35,7 +35,7 @@
 								"background": "rgba(231, 231, 231,0)",
 								"redDot": false
 							}
-						]
+						] */
 					}
 				}
 			}
@@ -45,10 +45,13 @@
 			"style": {
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "推荐",
+				"navigationBarTextStyle":"black",
+				"backgroundColor":"#FFFFFF",
+				"navigationBarBackgroundColor": "#FFFFFF",
 				"app-plus": {
 					"scrollIndicator":"none",
 					"titleNView": {
-						// "type": "transparent",
+						 //"type": "transparent",
 						"titleColor": "#fff",
 						// "backgroundColor": "#007AFF",
 						"buttons": [{
@@ -57,14 +60,14 @@
 							"text": "\ue62c",
 							"width": "40px",
 							"fontSize": "22px",
-							"color": "#fff",
-							"background": "rgba(0,0,0,0)"
+							"color": "#000000",
+							"background": "rgba(255,255,255,1)"
 						}],
 						"searchInput": {
-							"backgroundColor": "#fff",
-							"borderRadius": "6px",
 							"placeholder": "短裤短袖女装",
-							"disabled": true
+							"disabled": true,
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px"
 						}
 					}
 				}
@@ -74,6 +77,8 @@
 			"path": "pages/tag/index",
 			"style": {
 				"navigationBarTitleText": "分类",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor": "#FFFFFF",
 				"app-plus": {
 					"scrollIndicator":"none",
 					"titleNView": {
@@ -86,14 +91,14 @@
 							"text": "\ue62c",
 							"width": "40px",
 							"fontSize": "22px",
-							"color": "#fff",
+							"color": "#000000",
 							"background": "rgba(0,0,0,0)"
 						}],
 						"searchInput": {
-							"backgroundColor": "#fff",
-							"borderRadius": "6px",
 							"placeholder": "短裤短袖女装",
-							"disabled": true
+							"disabled": true,
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px"
 						}
 					}
 				}
@@ -147,6 +152,38 @@
 			}
 		},
 		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60f",
+								"fontSize": "24",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue744",
+								"fontSize": "28",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)",
+								"redDot": true
+							}
+						]
+					}
+				}
+			}
+		},
+		{
 			"path": "pages/center/login",
 			"style": {
 				"navigationBarTitleText": "登录",
@@ -172,25 +209,28 @@
 		}, {
 			"path": "pages/search/index",
 			"style": {
+
 				"scrollIndicator":"none",
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "搜索",
+				"navigationBarTextStyle":"black",
 				"app-plus": {
 					"titleNView": {
-						"titleColor": "#fff",
-						// "backgroundColor": "#007AFF",
+						"titleColor": "#000000",
+						"backgroundColor": "#FFFFFF",
 						"buttons": [{
-							"fontSrc": "/static/uni.ttf",
-							"text": "搜券",
+							//"fontSrc": "/static/uni.ttf",
+							"text": "搜索",
 							"width": "auto",
-							"fontSize": "18px",
-							"color": "#fff"
+							"fontSize": "16px",
+							"color": "#000000"
 						}],
 						"searchInput": {
-							"backgroundColor": "#fff",
 							"borderRadius": "6px",
-							"placeholder": "短裤短袖女装",
-							"autoFocus": true
+							"placeholder": "请输入商品名或粘贴宝贝标题搜索",
+							"autoFocus": true,
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px"
 						}
 					}
 				}
@@ -200,6 +240,7 @@
 			"path": "pages/good/detail",
 			"style": {
 				"navigationBarTitleText": "商品详情",
+				"navigationBarTextStyle":"black",
 				"app-plus": {
 					"scrollIndicator":"none",
 					"titleNView": {
@@ -289,8 +330,8 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "喵优券",
-		"navigationBarBackgroundColor": "#007AFF",
-		"backgroundColor": "#FF0000"
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#FFFFFF"
 	},
 	"tabBar": {
 		"color": "#444444",
@@ -316,7 +357,7 @@
 				"text": "分类"
 			},
 			{
-				"pagePath": "pages/center/index",
+				"pagePath": "pages/user/user",
 				"iconPath": "static/center-0.png",
 				"selectedIconPath": "static/center-1.png",
 				"text": "我的"

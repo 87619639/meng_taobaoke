@@ -7,7 +7,7 @@
 		</view>
 		<!-- #endif -->
 		<!-- 标题栏和状态栏占位符 -->
-		<view class="titleNview-placing"></view>
+		<view class="titleNview-placing"  :style="{height:statusBarHeight+'wx'}"></view>
 		<!-- 优化使用nvue 实现  分类 -->
 		<scroll-view id="tab-bar" class="uni-swiper-tab" scroll-x :scroll-left="scrollLeft">
 			<view v-for="(tab, index) in tabs" :key="index" class="swiper-tab-list" :class="{ active: tabIndex == index }" :id="'tab_' + tab.id" @click="tapTab(tab, index)">
@@ -55,6 +55,10 @@
 					<view class="cate-grid-list" v-if="good.cid > 0">
 						<uni-grid :options="gcategorys[index].sub_categorys" :show-border="false" columnNum="5" @click="tagClick"></uni-grid>
 					</view>
+					
+					<view class='' style="text-align: center;padding:10upx 0;">
+						为您推荐
+					</view>
 					<block v-for="(g, idx) in good.data" :key="idx">
 						<view class="uni-index-list-cell">
 							<view class="uni-good-list" @click="goodClick(g)">
@@ -67,8 +71,8 @@
 										<text class="good-sell-number">已售{{ g.sales_num }}件</text>
 									</view>
 									<view class="uni-good-list-text-bottom">
-										<text class="good-price">券后￥{{ g.price }}</text>
-										<text class="good-quan">￥{{ g.coupon_price }}元券</text>
+										<text class="good-price">券后￥{{g.price}}</text>
+										<text class="good-quan">￥{{g.coupon_price}}元券</text>
 									</view>
 								</view>
 							</view>
@@ -180,10 +184,10 @@ export default {
 				await this.$store.dispatch('category/GetCategory');
 				this.tabs = this.categorys;
 			}
-			await this.$store.dispatch('banner/GetBanner');
-			await this.$store.dispatch('activity/GetActivity', {});
-			await this.$store.dispatch('good/InitGoods', this.tabs);
-			await this.$store.dispatch('good/GetGoods', { cid: 0, page: 1 });
+			this.$store.dispatch('banner/GetBanner');
+			this.$store.dispatch('activity/GetActivity', {});
+			this.$store.dispatch('good/InitGoods', this.tabs);
+			this.$store.dispatch('good/GetGoods', { cid: 0, page: 1 });
 			this.gotTop();
 			// console.log(this.tabs)
 			uni.hideLoading();
@@ -464,18 +468,19 @@ export default {
 
 <style>
 		
-		/* 头部 轮播图 */
 	/* 头部 轮播图 */
 	.carousel-section {
 		position: relative;
-		padding-top: 10px;
-
 	}
 	
 	
-	.uni-tab-bar .titleNview-placing {
+	.titleNview-placing {
 		height: var(--status-bar-height);
-		padding-top: 44px;
+		padding-top: 44upx;
+		/* #ifdef APP-PLUS */
+		padding-top: calc(88upx + var(--status-bar-height));
+		/* #endif */
+		
 		box-sizing: content-box;
 	}
 	
@@ -497,7 +502,6 @@ export default {
 	.carousel .carousel-item {
 		width: 100%;
 		height: 100%;
-		padding: 0 28upx;
 		overflow: hidden;
 	}
 	

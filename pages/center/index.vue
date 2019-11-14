@@ -5,8 +5,8 @@
 				<image class="center-logo-img" src="../../static/logo.png"></image>
 				<view class="center-logo-title">
 					<view class="center-uer-name">
-						<!-- <text v-on:click="goLogin()">登录</text>/<text v-on:click="goRegister()">注册</text> -->
-						<text>桔子精选</text>
+						<text v-on:click="goLogin()">登录</text>/<text v-on:click="goRegister()">注册</text>
+						<text>淘优券</text>
 					</view>
 				</view>
 			</view>

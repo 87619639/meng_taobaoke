@@ -82,7 +82,7 @@
 .input-view {
 	width: 92%;
 	display: flex;
-	background-color: #e7e7e7;
+	background-color: #F7F7F7;
 	height: 30px;
 	border-radius: 15px;
 	padding: 0 4%;
@@ -237,7 +237,7 @@
 
 .uni-tab-bar .good-list {
 	width: 750upx;
-	background: #E7E7E7;
+	background: #F7F7F7;
 	height: 100%;
 	touch-action: none;
 }

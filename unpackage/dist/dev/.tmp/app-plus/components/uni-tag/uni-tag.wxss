@@ -24,6 +24,13 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+/*mix-mall*/
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
 .uni-tag {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -51,13 +58,13 @@
 }
 .uni-tag--primary {
     color: #fff;
-    background-color: #007aff;
-    border: 1px solid #007aff;
+    background-color: #fa436a;
+    border: 1px solid #fa436a;
 }
 .uni-tag--primary.uni-tag--inverted {
-      color: #007aff;
+      color: #fa436a;
       background-color: #ffffff;
-      border: 1px solid #007aff;
+      border: 1px solid #fa436a;
 }
 .uni-tag--success {
     color: #fff;

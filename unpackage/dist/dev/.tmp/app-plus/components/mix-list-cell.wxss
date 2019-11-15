@@ -31,44 +31,55 @@
 /* 边框颜色 */
 /* 图片加载中颜色 */
 /* 行为相关颜色 */
-.uni-list {
-  background-color: #ffffff;
-  position: relative;
-  width: 100%;
+.icon .mix-list-cell.b-b:after {
+  left: 90rpx;
+}
+.mix-list-cell {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 20rpx 30rpx;
+  line-height: 60rpx;
+  position: relative;
 }
-.uni-list:after {
-    position: absolute;
-    z-index: 10;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 1px;
-    content: '';
-    -webkit-transform: scaleY(0.5);
-    -ms-transform: scaleY(0.5);
-        transform: scaleY(0.5);
-    background-color: #c8c7cc;
+.mix-list-cell.cell-hover {
+    background: #fafafa;
 }
-.uni-list:before {
-    position: absolute;
-    z-index: 10;
-    right: 0;
-    top: 0;
-    left: 0;
-    height: 1px;
-    content: '';
-    -webkit-transform: scaleY(0.5);
-    -ms-transform: scaleY(0.5);
-        transform: scaleY(0.5);
-    background-color: #c8c7cc;
+.mix-list-cell.b-b:after {
+    left: 30rpx;
+}
+.mix-list-cell .cell-icon {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    width: 56rpx;
+    max-height: 60rpx;
+    font-size: 38rpx;
+}
+.mix-list-cell .cell-more {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 30rpx;
+    color: #606266;
+    margin-left: 10px;
+}
+.mix-list-cell .cell-tit {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 28rpx;
+    color: #303133;
+    margin-right: 10rpx;
+}
+.mix-list-cell .cell-tip {
+    font-size: 26rpx;
+    color: #909399;
 }
 

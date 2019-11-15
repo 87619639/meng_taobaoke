@@ -24,6 +24,13 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+/*mix-mall*/
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
 .uni-badge {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   -webkit-box-sizing: border-box;
@@ -43,10 +50,10 @@
 }
 .uni-badge-primary {
     color: #fff;
-    background-color: #007aff;
+    background-color: #fa436a;
 }
 .uni-badge-primary.uni-badge-inverted {
-      color: #007aff;
+      color: #fa436a;
       background-color: transparent;
 }
 .uni-badge-success {

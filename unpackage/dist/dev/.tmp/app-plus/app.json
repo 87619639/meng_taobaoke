@@ -5,6 +5,7 @@
     "pages/tag/index",
     "pages/activity/index",
     "pages/center/index",
+    "pages/user/user",
     "pages/center/login",
     "pages/center/register",
     "pages/search/index",

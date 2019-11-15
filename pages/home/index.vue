@@ -64,15 +64,20 @@
 							<view class="uni-good-list" @click="goodClick(g)">
 								<image class="uni-good-list-logo" lazy-load :src="g.main_pic"></image>
 								<view class="uni-good-list-body">
-									<view class="uni-good-list-text-top">{{ g.dtitle }}</view>
-									<view class="uni-good-list-text-bottom">
-										<text v-if="g.istmall" class="good-price-favour">天猫价￥{{ g.original_price }}</text>
-										<text v-else class="good-price-favour">淘宝价￥{{ g.original_price }}</text>
-										<text class="good-sell-number">已售{{ g.sales_num }}件</text>
+									<view class="uni-good-list-text-top"><text class="shop_type">天猫</text>{{ g.dtitle }}</view>
+
+									<view class="uni-good-list-text-center">
+										<view>
+											<text class="good-price">￥{{g.price}}</text>
+											<text class="good-origin-price">￥{{ g.original_price }}</text>
+										</view>
+										<view>
+											<text class="good-sell-number">已售{{ g.sales_num }}件</text>
+										</view>
 									</view>
-									<view class="uni-good-list-text-bottom">
-										<text class="good-price">券后￥{{g.price}}</text>
-										<text class="good-quan">￥{{g.coupon_price}}元券</text>
+									<view class="uni-good-list-text-footer">
+										<view class="good-youhuiquan">{{g.coupon_price}}元券</view>
+										<view class="good-fanli">预估收益￥{{g.fanli}}</view>
 									</view>
 								</view>
 							</view>
@@ -467,6 +472,17 @@ export default {
 </script>
 
 <style>
+	
+	/*商品类型*/
+	.shop_type{
+		border: 1upx solid #FC3F78;
+		color: #FC3F78;
+		padding: 1upx 5upx;
+		font-size:24upx;
+		margin-right:10upx;
+		border-radius: 2upx;
+	}
+	
 		
 	/* 头部 轮播图 */
 	.carousel-section {
@@ -573,7 +589,51 @@ export default {
 		.uni-good-list-text-bottom {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-between;
+			justify-content:left;
+		}
+		
+		.uni-good-list-text-center{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+		}
+		
+		.uni-good-list-text-footer {
+			display: flex;
+			flex-direction: row;
+			justify-content:left;
+		}
+		
+		.uni-good-list-text-center .good-price{
+			color:#F43C38;
+			font-size:32upx;
+		}
+		.uni-good-list-text-center .good-origin-price{
+			color:#9C9C9E;
+			font-size:24upx;
+			text-decoration: line-through;
+			margin-left:20upx;
+		}
+		
+		.uni-good-list-text-center .good-sell-number{
+			font-size:24upx;
+			color:#9c9c9e;
+		}
+		.uni-good-list-text-footer .good-youhuiquan{
+			background:#F43C38;
+			font-size:22upx;
+			padding:2upx 8upx;
+			color:#fff;
+			border-radius: 4upx;
+		}
+		.uni-good-list-text-footer .good-fanli{
+			background:#FEEAE9;
+			font-size:22upx;
+			padding:2upx 8upx;
+			color:#F43C38;
+			border-radius: 4upx;
+			margin-left:20upx;
 		}
 
 		.cate-grid-list {
